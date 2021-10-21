@@ -1,6 +1,6 @@
 S=str(input("Dati elemente in sirul dat:"))
 x=S.count('A')
-print("a) Numarul de aparitii ale caracerului 'A' in sir:",x)
+print("a) Numarul de aparitii ale caracterului 'A' in sir:",x)
 for i in S:
     sir2=S.replace('A','*')
 print("b) Sirul obtinut prin substituirea caracterului 'A' prin caracterul '*' :",sir2)
